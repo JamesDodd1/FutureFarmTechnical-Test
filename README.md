@@ -15,3 +15,6 @@
 
 
 ![OutputData](./images/Output.jpeg =100x)
+
+
+<img src="./images/Output.jpeg" alt="OutputData" width="100" />
