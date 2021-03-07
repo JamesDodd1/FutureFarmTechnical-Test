@@ -33,7 +33,7 @@ class ChemicalOrders
         // For each chemical, the SQL query returns the chemical name, prices, calculates the 
         // total area to be sprayed and the end date of the current spray duration.
         // Any field whose chemical application duration expires before a week from today or 
-        // if there is no record of that field being sprayed.
+        // if there is no record of that field being sprayed are returned.
         $sql = "SELECT ch.`Name`, ch.`Price`, SUM(f.`Width` * f.`Length`) AS Area, 
                     DATE_ADD(f.`Sprayed`, INTERVAL (7 * (ch.`Application` - 1)) DAY) AS WeekBeforeEnd
                 FROM `Field` f
@@ -51,7 +51,6 @@ class ChemicalOrders
 
         
         $todayDateTime = new DateTime();
-        //$todayDateTime = new DateTime('2021-02-01');
         $parameters = [$todayDateTime->format('Y-m-d')];
 
         $results = $this->crud->select($sql, $parameters);
@@ -80,4 +79,5 @@ class ChemicalOrders
         return $datesToOrderChemicals;
     }
 }
+
 ?>
