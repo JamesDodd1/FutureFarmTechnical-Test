@@ -14,4 +14,4 @@
 ![ERD](./images/ERD.jpeg)
 
 
-![OutputData](./images/Output.jpeg = 100x)
+![OutputData](./images/Output.jpeg =100x)
