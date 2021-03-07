@@ -3,7 +3,7 @@
 ### Technologies
 - PHP
 - MySQL
-- 
+
 
 ### Assumptions
 - A field may only every have one crop at a time.
