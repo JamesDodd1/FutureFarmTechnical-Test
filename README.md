@@ -14,5 +14,5 @@
 ![ERD](./images/ERD.jpeg)
 
 
-
+### Output Data
 <img src="./images/Output.jpeg" alt="OutputData" width="250" />
