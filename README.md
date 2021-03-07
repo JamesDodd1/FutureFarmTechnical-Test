@@ -12,3 +12,6 @@
 
 ### Entity Relationship Diagram
 ![ERD](./images/ERD.jpeg)
+
+
+![OutputData](./images/Output.jpeg)
