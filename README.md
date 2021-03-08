@@ -20,5 +20,6 @@
 
 
 ### Output Data
-<img src="./images/Output.jpeg" alt="OutputData" width="250" />
+<img src="./images/OutputArray.jpeg" alt="OutputData" width="250" />
+
 __Note:__ Each chemical type had at least one crop whose spray end date has elapsed, therefore all 'Date to buy' value are all set to today's date
