@@ -6,7 +6,7 @@
 
 
 ### Assumptions
-- A field may only every have one crop at a time.
+- A field may only ever have one crop at a time.
 - Fields will keep the same crops types.
 - Each crop type may only ever have one chemical used on it.
 - If multiple fields are using the same chemical and will be purchased at the same time, that batch will be applied to all relevent fields.
